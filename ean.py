@@ -17,7 +17,8 @@ def isValidKey(code: int):
 
 
 if __name__ == '__main__':
-    n = 1294567890128
+    n = input('Enter a Barcode: ')
+    n = int(n)
     if isValidKey(n):
         print(f'\'{n}\' est un code valide !')
     else:
